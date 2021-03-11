@@ -1,4 +1,4 @@
-const { fetchCatsBreed } = require("./breedFetcherModified");
+const { fetchCatsBreed } = require("./breedFetcher");
 const userInput = process.argv.slice(2)[0];
 
 fetchCatsBreed(userInput, (error, desc) => {
